@@ -1,0 +1,5 @@
+"record_shortcut" = "记录快捷键";
+"press_shortcut" = "按下快捷键";
+"conflicting_shortcut_with_menu_item" = "此快捷键已被“%@”菜单项使用，无法继续设置。";
+"conflicting_shortcut_with_system" = "此快捷键已被系统使用，无法继续设置。";
+"tip_for_changing_system_shortcut" = "可在“系统偏好设置” › “键盘” › “快捷键”中自定大多数快捷键。";

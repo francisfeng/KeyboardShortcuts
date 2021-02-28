@@ -60,6 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8036268F25EB4AA300008C9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		8036269525EB4DED00008C9F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
 		E3500C3324DEDCEF00F4B055 /* KeyboardShortcutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardShortcutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3500C3524DEDCEF00F4B055 /* KeyboardShortcutsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = KeyboardShortcutsTests.swift; sourceTree = "<group>"; usesTabs = 1; };
 		E3500C3724DEDCEF00F4B055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,6 +114,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8036268C25EB4A7F00008C9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8036269325EB4DB700008C9F /* zh-Hans.lproj */,
+				8036268D25EB4A8600008C9F /* en.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8036268D25EB4A8600008C9F /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8036268E25EB4AA300008C9F /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		8036269325EB4DB700008C9F /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8036269425EB4DED00008C9F /* Localizable.strings */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
 		E3500C3424DEDCEF00F4B055 /* KeyboardShortcutsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +203,7 @@
 		OBJ_8 /* KeyboardShortcuts */ = {
 			isa = PBXGroup;
 			children = (
+				8036268C25EB4A7F00008C9F /* Resources */,
 				OBJ_9 /* KeyboardShortcuts.swift */,
 				E3BF562C245C29C30024D9BF /* CarbonKeyboardShortcuts.swift */,
 				E38103FD246449180023E9A8 /* Name.swift */,
@@ -287,6 +315,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = OBJ_5;
 			productRefGroup = OBJ_12 /* Products */;
@@ -418,6 +447,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8036268E25EB4AA300008C9F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8036268F25EB4AA300008C9F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8036269425EB4DED00008C9F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8036269525EB4DED00008C9F /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		E3BF563D245C2BB50024D9BF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

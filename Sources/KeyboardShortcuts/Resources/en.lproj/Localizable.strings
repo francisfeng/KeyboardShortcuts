@@ -1,0 +1,5 @@
+"record_shortcut" = "Record Shortcut";
+"press_shortcut" = "Press Shortcut";
+"conflicting_shortcut_with_menu_item" = "This keyboard shortcut cannot be used as it's already used by the “%@” menu item.";
+"conflicting_shortcut_with_system" = "This keyboard shortcut cannot be used as it's already a system-wide keyboard shortcut.";
+"tip_for_changing_system_shortcut" = "Most system-wide keyboard shortcuts can be changed in “System Preferences › Keyboard › Shortcuts“";
